@@ -1,0 +1,214 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS Sheet/style.css">
+    <title>CSS</title>
+</head>
+<body>
+    <a href="/Users/steephanie/Desktop/Projects/Cheatsheet/docs/index.html">
+        <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="rgb(18, 58, 18)" id="house" viewBox="0 0 16 16">
+            <path d="M8 6.982C9.664 5.309 13.825 8.236 8 12 2.175 8.236 6.336 5.309 8 6.982Z"/>
+            <path d="M8.707 1.5a1 1 0 0 0-1.414 0L.646 8.146a.5.5 0 0 0 .708.707L2 8.207V13.5A1.5 1.5 0 0 0 3.5 15h9a1.5 1.5 0 0 0 1.5-1.5V8.207l.646.646a.5.5 0 0 0 .708-.707L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293L8.707 1.5ZM13 7.207V13.5a.5.5 0 0 1-.5.5h-9a.5.5 0 0 1-.5-.5V7.207l5-5 5 5Z"/></svg>
+        </a>
+        <h1>CSS Reference</h1>
+        <h2>Font Properties</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Properties</th>
+                    <th>Description</th>
+                    <th>Examples</th>
+                </tr>
+                <tbody>
+                <tr>
+                    <td><span class="code">Font-Family</span></td>
+                    <td>Changes the font family of certain words, sentences, paragraphs, etc.</td>
+                    <td>P {font-family: "New Century Schoolbook", Times, serif;}</td>
+                </tr>
+                <tr>
+                    <td><span class="code">Font-Style</span></td>
+                    <td>Changes text: normal, oblique, and italics.</td>
+                    <td>H1 {font-style: oblique;}</td>
+                </tr>
+                 <tr>
+                <td><span class="code">Font-Variant</span></td>
+                <td>Used to display font in normal or small-caps.</td>
+                <td>SPAN {font-variant: small-caps;}</td>
+                 </tr>
+                <tr>
+                    <td><span class="code">Font-Weight</span></td>
+                    <td>Used to specify the weight of the font.</td>
+                    <td>H1 {font-weight: 800; } or P { font-weight: normal;}</td>
+                </tr>
+                <tr>
+                    <td><span class="code">Font-Size</span></td>
+                    <td>Used to specify the weight of the font.</td>
+                    <td>H1 {font-size: large;} or P {font-size: 12pt;}</td>
+                </tr>
+                <tr>
+                    <td><span class="code">Font</span></td>
+                    <td>Used to combine all properties of fonts.</td>
+                    <td>P {font: italic bold 12pt/14pt Times, serif;}</td>
+                </tr>
+            </tbody>
+            </thead>
+        </table>
+        <h2>Color and Background Properties</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Properties</th>
+                    <th>Description</th>
+                    <th>Examples</th>
+                </tr>
+                <tbody>
+                    <tr>
+                     <td><span class="code">Background-Image</span></td>
+                    <td>Sets the background image of an element.</td>
+                    <td>BODY {background-image: url(/images/foo.gif);}</td>
+                    </tr>
+                    <tr>
+                <td><span class="code">Background-Repeat</span></td>
+                    <td>Determines how a specified background image is repeated.The repeat-x value will repeat the image horizontally while the repeat-y value will repeat the image vertically.</td>
+                    <td>BODY {background: white url(candybar.gif);</td>
+                    </tr>
+                    <tr>
+                    <td><span class="code">Background-Attachment</span></td>
+                 <td>Determines if a specified background image will scroll with the content or be fixed with regard to the canvas.</td>
+                 <td>BODY {background-attachment: fixed;}</td>
+                 </tr>
+                 <tr>
+                    <td><span class="code">Color</span></td>
+                    <td>Allows you to change the color of text in HTML document.</td>
+                    <td>H1 {color: blue;} or H2 {color: #000080;}</td>
+                        </tr>
+                        <tr>
+                        <td><span class="code">Background-Color</span></td>
+                        <td>Sets the background color of an element.</td> 
+                        <td>BODY {background-color: white;}</td> 
+                        </tr>
+                </tbody>
+            </thead>
+        </table>
+        <h2>Text Properties</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Properties</th>
+                    <th>Description</th>
+                    <th>Examples</th>
+                </tr>
+                <tbody>
+                    <tr>
+                        <td><span class="code">Word-Spacing</span></td>
+                        <td>Defines an additional amount of space between words.</td>
+                        <td>P EM {word-spacing: 0.4em;}</td>
+                    </tr>
+                    <tr>
+                        <td><span class="code">Letter-Spacing</span></td>
+                        <td>Defines an additional amount of space between characters.</td>
+                        <td>H1 {letter-spacing: 0.1em;}</td>
+                    </tr>
+                    <tr>
+                        <td><span class="code">Text-Decoration</span></td> 
+                        <td>Allows text to be decorated through one of five properties: underline, overline, line-through, blink, none.</td>
+                        <td>A:link, A:visited, A:active {text-decoration: none;}</td>
+                    </tr>
+                    <tr>
+                        <td><span class="code">Vertical-Align</span></td>
+                        <td>Used to alter the vertical positioning of an inline element, relative to its parent element or to the element's line.</td>
+                        <td>IMG.middle {vertical-align: middle;} </td>
+                    </tr>
+                    <tr>
+                        <td><span class="code">Text-Transform</span></td>
+                        <td>Allows for capitalizing the first letter of each word (capitalize), capitalizing all letters of a word (uppercase), using all small letters in each word(lowercase), and the inital value(none).</td>
+                        <td>H1 {text-transform: uppercase;}</td>
+                    </tr>
+                    <tr>
+                        <td><span class="code">Text-Align</span></td>
+                        <td>Used to justify text left, center, right, and justify.</td>
+                        <td>H1 {text-align: center;}</td>
+                    </tr>
+                    <tr>
+                        <td><span class="code">Text-Indent</span></td>
+                        <td>Used to specify the amount of indentation prior to the first line of text.</td>
+                        <td>P {text-indent: 5em;}</td>
+                    </tr>
+                    <tr>
+                        <td><span class="code">Line-Height</span></td>
+                        <td>Used to control the spacing between baselines of text.</td>
+                        <td>P {line-height: 200%;}</td>
+                    </tr>
+                </tbody>
+            </thead>
+        </table>
+        <h2>Box Properties</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Properties</th>
+                    <th>Description</th>
+                    <th>Examples</th>
+                </tr>
+                <tbody>
+                    <tr>
+                        <td><span class="code">Margin-Top</span></td>
+                        <td>Sets the top margin of an element by specifying a length or a percentage.</td>
+                        <td>BODY {margin-top: 5pt;}</td>
+                    </tr>
+                    <tr>
+                        <td><span class="code">Margin-Right</span></td>
+                        <td>Sets the right margin of an element by specifying a length or a percentage.</td>
+                        <td>P.narrow {margin-right: 50%;}</td>
+                    </tr>
+                    <tr>
+                        <td><span class="code">Margin-Bottom</span></td>
+                        <td>sets the bottom margin of an element by specifying a length or a percentage.</td>
+                        <td>DT {margin-bottom: 3em;}</td>
+                    </tr>
+                    <tr>
+                        <td><span class="code">Margin-Left</span></td>
+                        <td>Sets the left margin of an element by specifying a length or a percentage.</td>
+                        <td>ADDRESS {margin-left: 50%;}</td>
+                    </tr>
+                    <tr>
+                        <td><span class="code">Margin</span></td>
+                        <td>Sets the margins of an element by specifying top, bottom, left and right margins -- all either specifying length or percentage.</td>
+                        <td>BODY {margin: 5em;} /* all margins 5em */</td>
+                    </tr>
+                    <tr>
+                        <td><span class="code">Padding-Top</span></td>
+                        <td>Describes the amount of space between the top border and the content of the selector.</td>
+                        <td>P {padding-top: 20%;}</td>
+                    </tr>
+                    <tr>
+                    <td><span class="code">Padding</span></td>
+                    <td>Shorthand for the padding-top, padding-right, padding-bottom, and padding-left properties.</td>
+                    <td>BLOCKQUOTE {padding: 2em 4em 5em 4em;}</td>
+                    </tr>
+                    <tr>
+                        <td><span class="code">Float</span></td>
+                        <td>Allows text to wrap around an element</td>
+                        <td>P {float: left;}</td>
+                    </tr>
+                    <tr>
+                        <td><span class="code">Border-Color</span></td>
+                        <td>Used to set the color of an element's border.</td>
+                        <td>P {border-color: #00000;}</td>
+                    </tr>
+                    <tr>
+                        <td><span class="code">Border-Style</span></td>
+                        <td>Sets style of a border - none, dotted, dashed, solid, double.</td>
+                        <td>P {border-style: dotted;}</td>
+                    </tr>
+                </tbody>
+            </thead>
+        </table>
+        <footer id="contact">
+            <p>Created by: Stephanie M.</p>
+            <p>Connnect with me: stephanie678@gmail.com</p>
+        </footer>
+</body>
+</html>

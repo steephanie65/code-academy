@@ -1,0 +1,67 @@
+html {
+    background-image: url(https://wallpaperaccess.com/full/2510671.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: auto;
+}
+html body {
+    margin: 0; 
+    height: 100%; 
+    overflow: scroll;
+} 
+
+.container {
+    max-width: 100%;
+    width: 100%;
+  }
+
+h1 {
+    color: rgb(85, 13, 134);
+    font-family: 'Patrick Hand', cursive;
+    font-size: 80;
+    text-align: center;
+    font-weight: 900px;
+    border-style: rounded;
+    border-color: bisque;
+    border: solid;
+    background-color: rgba(230, 181, 213, 0.726);
+    border-radius: 10em;
+    border-width: 3;
+    padding: 2;
+    width: 900px;
+    height: 110px;
+    margin: auto;
+    margin-top: 30;
+    letter-spacing: 2;
+   }
+
+#left {
+    display: flex;
+    justify-content: center;
+    padding: 160;
+    float: left;
+    margin-inline-start: auto;
+    }
+
+#right {
+    display: flex;
+    justify-content: center;
+    padding: 160;
+    float: right;
+    margin-inline-start: auto;
+}    
+
+img {  
+    height: 200px;  
+    width: 400px;   
+    }  
+    
+    #contact {
+        text-align: center;
+        color: rgb(85, 13, 134);
+        font-family: 'Patrick Hand', cursive, Arial, Helvetica, sans-serif;
+        font-size: 16;
+        font-weight: 60px;
+        letter-spacing: 2;
+        margin-bottom: auto;
+    }

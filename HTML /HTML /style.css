@@ -5,6 +5,11 @@ html {
     overflow: auto;
 } 
 
+html body {
+  margin: 0; 
+  height: 100%; 
+  overflow: scroll;
+} 
 
 .container {
     max-width: 800px;

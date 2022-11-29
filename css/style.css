@@ -63,5 +63,7 @@ footer {
         font-size: 16;
         font-weight: 60px;
         letter-spacing: 2;
-        postion: fixed
+        position: fixed;
+        bottom: 0;
+        width: 100%;
        }
